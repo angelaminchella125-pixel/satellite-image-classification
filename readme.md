@@ -3,7 +3,7 @@
 
 The project is delivered in a directory consisting of:
 * main.py --> python code implemented on Google Colab.
-* requirements.txt --> file listing the main libraries used in the project.
+* requirements.txt --> file listing the main libraries used in the python project.
 * Dockerfile --> containerization as required by the project delivery specifications.
 * readme.md.
 <br><br>
@@ -23,7 +23,7 @@ Note that the code was originally written on Google Colab. When running the code
 
 The aim of this project is to build and train a Convolutional Neural Network (CNN) to classify satellite images into four distinct categories: "cloudy", "desert", "green_area", and "water".
 
-The "Satellite Image Classification" dataset from Kaggle (Satellite Remote Sensing Image -RSI-CB256) was used, consisting of 5631 images in JPG format. The dataset was pre-processed, splitting images into training and validation sets (code block 2), and pixel values normalized (https://www.kaggle.com/datasets/mahmoudreda55/satellite-image-classification/data).
+The "Satellite Image Classification" dataset from Kaggle (Satellite Remote Sensing Image -RSI-CB256) was used, consisting of 5631 images in JPG format. The dataset was pre-processed, splitting images into training and validation sets ( as shown in code block 2), and pixel values normalized (https://www.kaggle.com/datasets/mahmoudreda55/satellite-image-classification/data).
 
 The project (main.py), implemented in 9 blocks of code, follows the following scheme: 
 
