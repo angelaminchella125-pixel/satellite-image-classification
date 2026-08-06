@@ -23,7 +23,7 @@ Note that the code was originally written on Google Colab. When running the code
 
 Remote sensing data provides massive, continuous Earth observation information that is critical for environmental monitoring and geophysical analysis. 
 
-In the context of NSN physics, analyzing satellite imagery shares deep computational methodologies with particle detector data processing, where pattern recognition and spatial reconstruction are essential. Furthermore, because traditional algorithms struggle with the complexity and volume of spatial imaging, machine learning and, more in particular Convolutional Neural Networks, offer the scalability and precision required to automatically extract meaningful physical insights.
+In the context of NSN physics, analyzing satellite imagery shares some ideological computational methodologies with particle detector data processing, where pattern recognition and spatial reconstruction are essential. Furthermore, because traditional algorithms struggle with the complexity and volume of spatial imaging, machine learning and, more in particular Convolutional Neural Networks, offer the scalability and precision required to automatically extract meaningful physical insights.
 <br><br>
 
 
