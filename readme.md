@@ -10,12 +10,20 @@ The project is delivered in a directory consisting of:
 
 To run the code, follow these steps:
 * Open Docker.
-* Open the command prompt and navigate to the "satellite-image-classification" repository.
+* Open the command prompt and run the command: git clone https://github.com/angelaminchella125-pixel/satellite-image-classification
+* Enter the directory "satellite-image-reconstruction"
 * Run the command: docker build -t imagename .
 * Run the command: docker run --rm imagename <br>
 (Note: imagename --> a placeholder for a custom name you choose for the Docker image, any name can be chosen)
 
-Note that the code was originally written on Google Colab. When running the code inside the Docker container, plots and results will not pop up visually, so for the best visualization of plots and results, open the code directly on Google Colab or Jupyter Notebook.
+Note that the code was originally written on Google Colab. When running the code inside the Docker container, plots and some results will not pop up visually, so for the best visualization, open the code directly on Google Colab or Jupyter Notebook.
+<br><br>
+
+-Motivation and physical relevance-
+
+Remote sensing data provides massive, continuous Earth observation information that is critical for environmental monitoring and geophysical analysis. 
+
+In the context of NSN physics, analyzing satellite imagery shares deep computational methodologies with particle detector data processing, where pattern recognition and spatial reconstruction are essential. Furthermore, because traditional algorithms struggle with the complexity and volume of spatial imaging, machine learning and, more in particular Convolutional Neural Networks, offer the scalability and precision required to automatically extract meaningful physical insights.
 <br><br>
 
 
