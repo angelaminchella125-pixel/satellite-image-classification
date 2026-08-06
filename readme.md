@@ -1,24 +1,22 @@
-Software and Computing for Nuclear and Subnuclear Physics <br>
-Satellite Image Classification Project
-
+**Software and Computing for Nuclear and Subnuclear Physics** - **Satellite Image Classification Project** 
+<br><br>
 
 The project is delivered in a directory consisting of:
-
 * main.py --> python code implemented on Google Colab.
 * requirement.txt --> file listing the main libraries used in the project.
 * Dockerfile --> containerization as required by the project delivery specifications.
 * readme.md.
+<br><br>
 
+To run the code, follow these steps:
+* Open Docker.
+* Open the command prompt and navigate to the "satellite-image-classification" repository.
+* Run the command: docker build -t imagename .
+* Run the command: docker run --rm imagename <br>
+(Note: imagename --> a placeholder for a custom name you choose for the Docker image, any name can be chosen)
 
-To run the code follows these steps:
-* enter the directory "project" from the command prompt;
-* execute the command: docker build -t imagename .
-* execute the command: docker run --rm imagename <br>
-(imagename --> you can chose a name for the image of your choice)
-
-Note that for the best visualization of plots and results, open the notebook directly on Google Colab or Jupyter Notebook.<br>
-
-
+Note that for the best visualization of plots and results, open the code directly on Google Colab or Jupyter Notebook.
+<br><br>
 
 
 -Description-
@@ -43,8 +41,7 @@ The CNN model consists of:
 * A final 'Dense' layer with Softmax activation for 4-class classification.
 
 The model was compiled with the 'adam' optimizer and 'categorical_crossentropy' loss function.
-
-
+<br><br>
 
 
 -Results-
@@ -57,8 +54,7 @@ The model was trained for 10 epochs demonstrating:
 The confusion matrix (as presented in block 6) highlights strong performance for 'cloudy' and 'desert' classes. However, the model sometimes misclassifies 'green_area' and 'water' images due to visual similarities, providing valuable insight into the model's capability and limitation.
 
 Further analysis of misclassified images (as presented in block 9) confirms that errors are primarily concentrated between 'green_area' and 'water' classes, reinforcing the observations from the confusion matrix. This suggests that future work could involve more sophisticated architectures or additional features to better differentiate these challenging categories.
-
-
+<br><br>
 
 
 -Conclusion-
