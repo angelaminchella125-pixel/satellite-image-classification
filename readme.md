@@ -6,6 +6,8 @@ The project is delivered in a directory consisting of:
 * requirements.txt --> file listing the main libraries used in the python project.
 * Dockerfile --> containerization as required by the project delivery specifications.
 * readme.md.
+* images --> a directory containing an example of the confusion matrix, the model accuracy (training vs validation) and model loss (training vs validation) generated in a code execution.
+
 <br><br>
 
 To run the code, follow these steps:
