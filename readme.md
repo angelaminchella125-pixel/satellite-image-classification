@@ -1,4 +1,4 @@
-Software and Computing for Nuclear and Subnuclear Physics
+Software and Computing for Nuclear and Subnuclear Physics <br>
 Satellite Image Classification Project
 
 
@@ -11,11 +11,12 @@ The project is delivered in a directory consisting of:
 
 
 To run the code follow these steps:
-1. enter the directory "project" from the command prompt;
-2. execute the command: docker build -t imagename .
-3. execute the command: docker run --rm imagename
+* enter the directory "project" from the command prompt;
+* execute the command: docker build -t imagename .
+* execute the command: docker run --rm imagename <br>
 (imagename--> you can chose a name for the image of your choice)
-Note that for the best visualization of plots and results, open the notebook directly on Google Colab or Jupyter Notebook.
+
+Note that for the best visualization of plots and results, open the notebook directly on Google Colab or Jupyter Notebook.<br>
 
 
 
