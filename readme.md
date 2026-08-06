@@ -10,11 +10,11 @@ The project is delivered in a directory consisting of:
 * readme.md.
 
 
-To run the code follow these steps:
+To run the code follows these steps:
 * enter the directory "project" from the command prompt;
 * execute the command: docker build -t imagename .
 * execute the command: docker run --rm imagename <br>
-(imagename--> you can chose a name for the image of your choice)
+(imagename --> you can chose a name for the image of your choice)
 
 Note that for the best visualization of plots and results, open the notebook directly on Google Colab or Jupyter Notebook.<br>
 
