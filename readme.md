@@ -15,7 +15,7 @@ To run the code, follow these steps:
 * Run the command: docker run --rm imagename <br>
 (Note: imagename --> a placeholder for a custom name you choose for the Docker image, any name can be chosen)
 
-Note that for the best visualization of plots and results, open the code directly on Google Colab or Jupyter Notebook.
+Note that the code was originally written on Google Colab. When running the code inside the Docker container, plots and results will not pop up visually, so for the best visualization of plots and results, open the code directly on Google Colab or Jupyter Notebook.
 <br><br>
 
 
@@ -32,7 +32,7 @@ The project (main.py), implemented in 9 blocks of code, follows the following sc
 * Building and compiling a custom CNN architecture. 
 * Training the model and evaluating its performance on validation and test sets.
 
-The CNN model consists of:
+The CNN model characteristics are:
 
 * An input layer for 64x64x3 images.
 * Two blocks of "Conv2D" and "MaxPooling2D" for feature extraction.
