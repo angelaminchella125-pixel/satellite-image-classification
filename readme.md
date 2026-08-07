@@ -13,7 +13,7 @@ The project is delivered in a directory consisting of:
 To run the code, follow these steps:
 * Open Docker.
 * Open the command prompt and run the command: git clone https://github.com/angelaminchella125-pixel/satellite-image-classification
-* Enter the directory "satellite-image-reconstruction"
+* Enter the directory "satellite-image-classification": cd satellite-image-classification
 * Run the command: docker build -t imagename .
 * Run the command: docker run --rm imagename <br>
 (Note: imagename --> a placeholder for a custom name you choose for the Docker image, any name can be chosen)
