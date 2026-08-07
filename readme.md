@@ -18,7 +18,7 @@ To run the code, follow these steps:
 * Run the command: docker run --rm imagename <br>
 (Note: imagename --> a placeholder for a custom name you choose for the Docker image, any name can be chosen)
 
-Note that the code was originally written on Google Colab. When running the code inside the Docker container, plots and some results will not pop up visually, so for the best visualization, open the code directly on Google Colab or Jupyter Notebook.
+Note that the code was originally written on Google Colab. When running the code inside the Docker container, plots and some results will not pop up visually, so for the best visualization, open the code directly on Google Colab or Jupyter Notebook. Nevertheless, in the subdirectory "images" some of the plots are shown.
 <br><br>
 
 -Motivation and physical relevance-
