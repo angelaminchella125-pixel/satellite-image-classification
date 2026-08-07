@@ -35,7 +35,7 @@ The aim of this project is to build and train a Convolutional Neural Network (CN
 
 The "Satellite Image Classification" dataset from Kaggle (Satellite Remote Sensing Image -RSI-CB256) was used, consisting of 5631 images in JPG format. The dataset was pre-processed, splitting images into training and validation sets ( as shown in code block 2), and pixel values normalized (https://www.kaggle.com/datasets/mahmoudreda55/satellite-image-classification/data).
 
-The project (main.py), implemented in 9 blocks of code, follows the following scheme: 
+The project (main.py), implemented in 9 blocks of code, follows the following logical scheme: 
 
 * Downloading and setting up the dataset paths. 
 * Loading and preprocessing image data. 
